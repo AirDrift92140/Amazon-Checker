@@ -1,6 +1,6 @@
 {
   "prefix":"+",
-  "token":"OTY4MjM0MDc3MTg4NjUzMTM2.Ymb4QA.ecC-qbTmB5Z7knTYET0-Tz_uWi4",
+  "token":"TOKEN",
   "minutes_per_check":2,
   "search_response_ms": 30000,
   "url_params":{},
