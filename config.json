@@ -1,0 +1,13 @@
+{
+  "prefix":"+",
+  "token":"OTY4MjM0MDc3MTg4NjUzMTM2.Ymb4QA.ecC-qbTmB5Z7knTYET0-Tz_uWi4",
+  "minutes_per_check":2,
+  "search_response_ms": 30000,
+  "url_params":{},
+  "guild_item_limit":5,
+  "cache_limit": 10,
+  "required_perms":["permission_1", "permission_2"],
+  "tld":"es",
+  "auto_cart_link":true,
+  "debug_enabled":true
+}
