@@ -1,0 +1,41 @@
+{
+  "name": "amazonmonitor",
+  "version": "1.6.0",
+  "description": "A Discord bot that monitors Amazon items for price drops/restocks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpikeHD/AmazonMonitor.git"
+  },
+  "author": "SpikeHD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpikeHD/AmazonMonitor/issues"
+  },
+  "homepage": "https://github.com/SpikeHD/AmazonMonitor#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "puppeteer": "^5.5.0",
+    "puppeteer-page-proxy": "^1.2.8",
+    "puppeteer-proxy": "^2.1.1",
+    "request-promise": "^4.2.5",
+    "simple-proxy-agent": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "eslint": "^7.19.0",
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageReporters": [
+      "text"
+    ]
+  }
+}
